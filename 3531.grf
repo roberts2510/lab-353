@@ -1,0 +1,93 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = 64.2663894385322
+xMax = 110.153941291785
+xTickUnit = 5
+xGridUnit = 5
+xLabel = V, B
+yMin = -1.46369447541393
+yMax = 27.2160254270614
+yTickUnit = 5
+yGridUnit = 5
+yLabel = I, *0.25 mA
+yAxisCross = 68
+AxesColor = clBlue
+GridColor = 0x00FF9999
+LabelFont = Times New Roman,24,clBlack,B
+LegendFont = Times New Roman,14,clBlack
+ShowLegend = 0
+Radian = 1
+Title = Зависимость I(V)
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 4
+Style = 0
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 14
+Points = 84.7,10;82,8;81.4,7;79.7,6;78.2,5;77.2,4;75.9,2.5;93,15;94,16;89,12;85,10;84,9;97,18.7;75,2.2;
+LegendText = Ряд 1
+
+[Func1]
+FuncType = 0
+y = 0.72434842*x-51.89329854
+LegendText = f(x)=0.7243*x-51.8933; R²=0.9945
+From = 75
+To = 98
+Color = clLime
+
+[Label1]
+Placement = 0
+Pos = 65.2697615636034;19.798856486766
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang1033\\f0\\fs72 I(z)\\lang1049\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 0
+Pos = 65.4369902511152;3.89314975924382
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil\\fcharset204{\\*\\fname Times New Roman;}Times New Roman CYR;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang1033\\f0\\fs72 I(g)\\lang1049\\f1\\fs20\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label3]
+Placement = 0
+Pos = 73.340515982449;0.553605049198594
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs72 V(g)\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label4]
+Placement = 0
+Pos = 97.1248445289796;0.66003331652618
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs72 V(z)\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[PointSeries2]
+FillColor = clBlue
+LineColor = clBlue
+Size = 4
+Style = 2
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 13
+Points = 71.95,10;71.8,8;72.5,7;72,6;71.8,5;72.1,4;72.7,2.5;73.9,15;73.6,16;73.7,12;72.5,9;73,18.7;72.9,2.2;
+LegendText = Ряд 2
+
+[Data]
+TextLabelCount = 4
+FuncCount = 1
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

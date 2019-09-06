@@ -1,0 +1,85 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = 87.1046163321286
+xMax = 1184.63548053213
+xTickUnit = 50
+xGridUnit = 50
+xLabel = R, kOm
+yMin = -4.04588936933907
+yMax = 57.6825056906609
+yTickUnit = 5
+yGridUnit = 5
+yLabel = T, mS
+yAxisCross = 120
+AxesColor = clBlue
+GridColor = 0x00FF9999
+LabelFont = Times New Roman,24,clBlack,B
+LegendFont = Times New Roman,48,clBlack
+ShowLegend = 1
+Radian = 1
+Title = Зависимость T(R)
+
+[PointSeries1]
+FillColor = clBlue
+LineColor = clBlue
+Size = 7
+Style = 2
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 13
+Points = 990,45.45;890,38.5;790,33.3;690,29.4;590,25.3;490,21;390,16.7;290,12.25;180,7.5;170,6.85;160,6.37;150,5.7;141,5.1;
+LegendText = Exp
+
+[PointSeries2]
+FillColor = clPurple
+LineColor = clBlue
+Size = 7
+Style = 0
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 13
+Points = 990,31.67;890,28.5;790,25.3;690,22.1;590,18.9;490,15.7;390,12.5;290,9.3;180,5.8;170,5.44;160,5.1;150,4.8;141,4.5;
+LegendText = Teor
+
+[Func1]
+FuncType = 0
+y = 0.03201076*x+0.00571336
+ShowInLegend = 0
+LegendText = f(x)=0.032*x+0.0057; R²=1
+Color = clRed
+
+[Func2]
+FuncType = 0
+y = 0.04500225*x-1.00294812
+ShowInLegend = 0
+LegendText = f(x)=0.045*x-1.0029; R²=0.9972
+Color = clGreen
+
+[Label1]
+Placement = 0
+Pos = 415.083956216968;13.0713236286207
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs48 y=0.03x\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 0
+Pos = 438.282494891749;26.2861668239368
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs48 y=0.04x-1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 2
+FuncCount = 2
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
